@@ -1,0 +1,142 @@
+
+.navbar{
+    overflow:hidden;
+    background: rgba(0, 0, 0, 1);
+ 
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-family: 'Century Gothic', sans-serif;
+    color: #FFF;
+}
+.navbar a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+.navbar h3{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: 8px;
+    margin-left: 2%;
+    text-decoration: none;
+    text-align: center;
+    
+    
+    
+}
+.navbar a:hover{
+    background: #ddd;
+    color: black;
+}
+
+.welcome{
+    background: url(books-classroom-close-up-289737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    z-index: 1000;
+    width: 100%;
+
+}
+.specs{
+    background: url(business-businessmen-classroom-267507.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    z-index: 1000;
+    width: 100%;
+
+}
+.plan{
+    background: url(audience-auditorium-chairs-356065.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    z-index: 1000;
+    width: 100%;
+
+}
+.team{
+    background: url(building-ceiling-classroom-373488.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    z-index: 1000;
+    width: 100%;
+
+}
+.overlay{
+    margin-top: 3.4%;
+
+    background: rgba(255, 255, 255, .4);
+    background-size: cover;
+
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+.overlay h1{
+    text-align: center;
+}
+
+.overlay p{
+    padding-left:2.5%;
+    text-align: left;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row img{
+    height: 250px;
+    width: 250px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+        
+}
